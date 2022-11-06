@@ -3,9 +3,9 @@ import { makeStyles } from "@material-ui/core/styles";
 export default makeStyles({
   media: {
     height: 0,
-    paddingTop: "56.25%",
+    paddingTop: "100%",
     backgroundColor: "rgba(0, 0, 0, 0.5)",
-    backgroundBlendMode: "darken",
+    // backgroundBlendMode: "darken",
   },
   border: {
     border: "solid",
@@ -22,10 +22,12 @@ export default makeStyles({
     position: "relative",
   },
   overlay: {
-    position: "absolute",
-    top: "20px",
-    left: "20px",
-    color: "white",
+    // position: "absolute",
+    marginLeft: "20px",
+    marginTop: "10px",
+    // top: "20px",
+    // left: "20px",
+    color: "black",
   },
   overlay2: {
     position: "absolute",
